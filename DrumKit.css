@@ -1,0 +1,225 @@
+*{
+  box-sizing: border-box;
+}
+div.heading{
+  border: 30px solid;
+  background:url("img/a.jpg");
+}
+div.heading h2{
+  text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 3px 3px #ca2222;
+    font-weight: 800;
+}
+
+div.heading h3{
+  text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 3px 3px #ca2222;
+    font-weight: 800;
+}
+
+div.keys.container{
+  margin: auto;
+width: 100%;
+height: 400px;
+display: flex;
+margin-top: 100px;
+position: absolute;
+z-index: 20;
+max-width: 100%;
+animation-name:example ;
+    animation-duration: 4s;
+
+}
+@keyframes example {
+    0%   { left:0px; top:0px; right:200px;}
+    100% {left:0px; top:115px; right:200px;}
+}
+div#carouselExampleControls{
+  position: absolute;
+}
+button.btn{
+  position: absolute;
+    display: 100%;
+    width: 100%;
+    margin-top: 405px;
+    z-index: 100;
+}
+div.container div.key{
+  width: 16%;
+height: 290px;
+margin: 0px auto;
+mar
+}
+kbd{
+  font-size: 50px;
+background-color: rgba(0,0,0,.07);
+border-right: 22px solid black;
+color: black;
+}
+kbd img{
+  opacity: 0.5;
+  width: 160px;
+  height: 200px;
+}
+div.con{
+  width: 100%;
+height: 300px;
+}
+
+div.key{
+  text-align: center;
+  background: rgba(0,0,0,3)
+  width: 20%;
+  height: 60px;
+  transition: all 0.2s;
+  font-size: 35px;
+  margin:auto;
+}
+
+.playing{
+  transform: scale(1,1.1);
+
+}
+div.con{
+  display: block;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  margin-top: 270px;
+}
+div.equaliser{
+  display: flex;
+  max-width: 100%;
+height: 30px;
+margin: auto;
+width: 100%;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+div.equaliser div.equaliser-1
+{
+width: 16%;
+height: 30px;
+}
+div.equaliser div.equaliser-1 div{
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid black;
+border-radius: 5px;
+}
+
+div.equaliser div.equaliser-2{
+width: 16%;
+height: 30px;
+}
+div.equaliser div.equaliser-2 div{
+
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid black ;
+  border-radius: 5px;
+}
+
+div.equaliser div.equaliser-3
+{
+
+width: 16%;
+background: ;
+height: 30px;
+}
+div.equaliser div.equaliser-3 div{
+  width: 100%;
+  background: ;
+  height: 30px;
+  padding: 2px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+
+div.equaliser div.equaliser-4
+{
+width: 16%;
+background: ;
+height: 30px;
+}
+div.equaliser div.equaliser-4 div{
+  width: 100%;
+  background: ;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid black ;
+  border-radius: 5px;
+}
+
+div.equaliser div.equaliser-5
+{
+
+  width: 16%;
+  background: ;
+  height: 30px;
+}
+div.equaliser div.equaliser-5 div{
+  width: 100%;
+  background:;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+div.equaliser div.equaliser-6
+{
+width: 16%;
+background: ;
+height: 30px;
+}
+div.equaliser div.equaliser-6 div{
+  width: 100%;
+  background:;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/*
+div.equaliser div.equaliser-7
+{
+
+width: 12.5%;
+background:purple;
+height: 30px;
+}
+
+div.equaliser div.equaliser-7 div{
+  width: 100%;
+  background: #5eb8b6;
+  height: 30px;
+  padding: 2px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+
+div.equaliser div.equaliser-8
+{
+width: 12.5%;
+background: blue;
+height: 30px;
+}
+div.equaliser div.equaliser-8 div{
+  width: 100%;
+  background: #52a0e6;
+  height: 30px;
+  padding: 2px;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.green{
+  background:green;
+}*/
